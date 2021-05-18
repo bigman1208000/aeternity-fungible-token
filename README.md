@@ -13,18 +13,6 @@ In the case you are using `mintable` extension the owner has special privilege -
 
 Each token owner can act upon their tokens in various ways. They can `transfer` it, allow for it to be transferred on their behalf or completely destroy it (using `burn`).
 
-# AEX 9
-
-```
-AEX: 9
-Title: Fungible Token Standard
-Author: @mradkov, @thepiwo
-License: ISC
-Discussions-To: https://forum.aeternity.com/t/aex-9-fungible-token/3565
-Status: Review
-Type: Standards Track
-Created: 2019-05-11
-```
 
 ## Simple Summary
 
@@ -433,14 +421,6 @@ Swap(address, int)
 | account| address |
 | value | int |
 
-
-## Implementation
-There are several implementations available at the moment, but they lack a thing or two (that is why this standard is being proposed).
-
-Example implementations:
-- [(REFERENCE) Aeternity Sophia Fungible Token](https://github.com/mradkov/aeternity-fungible-token/blob/master/contracts/fungible-token.aes)
-- [(OUTDATED) Fungible token implementation example](https://github.com/aeternity/aepp-sophia-examples/blob/master/libraries/FungibleToken/contracts/fungible-token.aes)
-- [(OUTDATED) ERC20 Sophia Translation](https://github.com/aeternity/aesophia/blob/master/test/contracts/erc20_token.aes)
 
 ## References
 [ERC-20](https://eips.ethereum.org/EIPS/eip-20)
